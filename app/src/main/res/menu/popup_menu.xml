@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="all"
+        >
+        <item
+            android:id="@+id/item_movies"
+            android:checked="true"
+            android:title="Movies"
+            android:visible="true"/>
+        <item
+            android:id="@+id/item_music"
+            android:checked="true"
+            android:title="Music"
+            android:visible="true"/>
+        <item
+            android:id="@+id/item_comedy"
+            android:checked="true"
+            android:title="Comedy"
+            android:visible="true"/>
+    </group>
+</menu>

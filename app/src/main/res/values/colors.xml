@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff6600</color>
+    <color name="colorPrimaryDark">#f18475</color>
+    <color name="colorAccent">#4d4d4d</color>
+    <color name="ThemeColor">#ff6600</color>
+    <color name="white">#fff</color>
+    <color name="MenuItem">#4d4d4d</color>
+    <color name="TextColor">#6a6a6a</color>
+    <color name="button_stroke">#ed6e40</color>
+    <color name="edit_text_stroke">#6a6a6a</color>
+    <color name="button_2_stroke">#3f3f3f</color>
+    <color name="text_view_bg">#f5f5f5</color>
+    <color name="discount">#9a9a9a</color>
+    <color name="link_1">#3F51B5</color>
+    <color name="link">#9a9a9a</color>
+    <color name="row_even">#f3f3f3</color>
+    <color name="row_odd">#ffffff</color>
+    <color name="divider">#424242</color>
+    <color name="divider_category">#e2e2e2</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="refer_box_1">#ff669900</color>
+    <color name="refer_box_2">#ffff4444</color>
+    <color name="refer_box_3">#ffaa66cc</color>
+</resources>

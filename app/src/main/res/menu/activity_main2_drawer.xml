@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <group
+        android:id="@+id/menu_1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/ic_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@mipmap/ic_account_circle_black_old"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/nav_how_it_works"
+            android:icon="@mipmap/ic_how_it_work"
+            android:title="@string/how_it_work" />
+        </group>
+    <group
+        android:id="@+id/menu_2"
+        android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/nav_downline_list"
+            android:icon="@mipmap/ic_downline_list"
+            android:title="@string/downline_list" />
+        <item
+            android:id="@+id/nav_generate_commission"
+            android:icon="@mipmap/ic_generate_commission"
+            android:title="@string/generate_commission" />
+        <item
+            android:id="@+id/nav_refer_earn"
+            android:icon="@mipmap/ic_attach_money_black_48dp"
+            android:title="@string/refer_and_earn" />
+        <item
+            android:id="@+id/nav_report_missing_sale"
+            android:icon="@mipmap/ic_missing_sale"
+            android:title="@string/report_missing_sale" />
+    </group>
+    <group
+        android:id="@+id/menu_3"
+        android:checkableBehavior="single">
+    <item
+            android:id="@+id/nav_sign_out"
+            android:icon="@mipmap/ic_power_settings_new_black_48dp"
+            android:title="@string/sign_out" />
+    </group>
+</menu>

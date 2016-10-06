@@ -1,0 +1,254 @@
+<resources>
+    <string name="app_name">Addley</string>
+    <!-- Activity Title names -->
+    <string name="title_activity_main">Addley</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="title_activity_main2">Addley</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_sign_up">Sign Up</string>
+    <string name="title_activity_otp">SMS Verification</string>
+    <string name="title_activity_terms_condition">Terms and Condition</string>
+    <string name="title_activity_profile">My Account</string>
+    <string name="title_activity_edit">Edit</string>
+    <string name="title_activity_change_password">Change Password</string>
+    <string name="title_activity_forgot_password">Forgot Password</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="drawer_open">Opened</string>
+    <string name="drawer_close">Closed</string>
+
+    <!-- new nav menus  -->
+    <string name="login">Login</string>
+    <string name="profile">My Profile</string>
+    <string name="home">Home</string>
+    <string name="how_it_work">How it Works?</string>
+    <string name="downline_list">Downline List</string>
+    <string name="generate_commission">Generate Commission</string>
+    <string name="refer_and_earn">Refer and Earn</string>
+    <string name="report_missing_sale">Report Missing Sale</string>
+    <string name="sign_out">Sign Out</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="prompt_forgot_password">Forgot Password</string>
+    <string name="prompt_sign_up">New User? Sign Up</string>
+    <string name="prompt_guest">Continue As Guest</string>
+
+    <!-- Strings related to Sign Up -->
+    <string name="sign_up_prompt_name">Name</string>
+    <string name="sign_up_error_name">Please Enter the Name</string>
+    <string name="sign_up_prompt_email">Email</string>
+    <string name="sign_up_error_email">Please Enter the Email</string>
+    <string name="sign_up_invalid_email">You have entered an invalid Email!</string>
+    <string name="sign_up_already_exits_email">You have entered an Already Exits Email!</string>
+    <string name="sign_up_prompt_mobile">Mobile</string>
+    <string name="sign_up_error_mobile">Please Enter the Mobile No.</string>
+    <string name="sign_up_invalid_mobile">You have entered an invalid Mobile No!</string>
+    <string name="sign_up_already_exits_mobile">You have entered an Already Exits Mobile No!</string>
+    <string name="sign_up_prompt_password">Password</string>
+    <string name="sign_up_error_password">Please Enter the Password</string>
+    <string name="sign_up_invalid_password">Password must contain at least six characters!</string>
+    <string name="sign_up_prompt_password_confirm">Password Confirm</string>
+    <string name="sign_up_prompt_error_confirm">Please Enter the Confirm Password</string>
+    <string name="sign_up_prompt_invalid_confirm">Both passwords do not match</string>
+    <string name="sign_up_prompt_agree">I agree with the </string>
+    <string name="sign_up_prompt_term_condition">Terms and Conditions</string>
+    <string name="sign_up_prompt_already_have_account">Already have an account?</string>
+    <string name="sign_up_prompt_sign">Sign in</string>
+    <string name="sign_up_action_sign_up">Sign up</string>
+    <string name="sign_up_prompt_referral">Referral Code</string>
+    <string name="sign_up_error_referral">Invalid Referral Code</string>
+    <string name="sign_up_error">Something went wrong!</string>
+
+    <!-- OTP FIELDS -->
+    <string name="otp_confirm">Enter OTP</string>
+    <string name="otp_action">Submit</string>
+    <string name="otp_error">Invalid OTP</string>
+    <string name="opt_required">Please Fill Otp field!</string>
+
+    <!-- USER DASHBOARD -->
+    <string name="user_dashboard_welcome">Welcome</string>
+    <string name="user_dashboard_user_name">Guest</string>
+    <string name="user_dashboard_message">You are currently signed in, so you can start earning cashback right now.</string>
+    <string name="user_dashboard_new_to_cashback">New to Cashback ? Find out</string>
+    <string name="user_dashboard_how_to_work"><u>how it work?</u></string>
+    <string name="user_dashboard_total_sale">00</string>
+    <string name="user_dashboard_total_sale_message">Total\nSale</string>
+    <string name="user_dashboard_total_sale_message_full">00\n\nTotal\nSale</string>
+    <string name="user_dashboard_total_commission">0.00</string>
+    <string name="user_dashboard_total_commission_message">Total\nCommission</string>
+    <string name="user_dashboard_total_commission_message_full">0.00\n\nTotal\nCommission</string>
+    <string name="user_dashboard_total_downline_member">00</string>
+    <string name="user_dashboard_total_downline_member_message">DownLine\nMember</string>
+    <string name="user_dashboard_total_downline_member_message_full">00\n\nDownLine\nMember</string>
+    <string name="user_dashboard_action_total_sale">Shop More</string>
+    <string name="user_dashboard_action_total_commission">History / Balance</string>
+    <string name="user_dashboard_action_total_downline_member">Downline List</string>
+
+    <!-- Personal Details -->
+    <string name="personal_detail_prompt_code">Your Code</string>
+    <string name="personal_detail_prompt_name">Your Name</string>
+    <string name="personal_detail_prompt_address">Address</string>
+    <string name="personal_detail_prompt_pin_code">Pin Code</string>
+    <string name="personal_detail_prompt_email">Email</string>
+    <string name="personal_detail_prompt_mobile">Mobile</string>
+    <string name="personal_detail_prompt_referral_code">Referral Code</string>
+    <string name="personal_detail_prompt_action_update">Update</string>
+    <string name="personal_detail_prompt_action_change_password">Change Password</string>
+    <!-- Bank Account Details -->
+    <string name="bank_account_detail_prompt_pan_number">PAN Number</string>
+    <string name="bank_account_detail_prompt_bank_name">Bank Name</string>
+    <string name="bank_account_detail_prompt_bank_account_number">Bank Account Number</string>
+    <string name="bank_account_detail_prompt_ifsc_code">IFSC Code</string>
+    <string name="bank_account_detail_prompt_bank_branch">Bank Branch</string>
+    <string name="bank_account_detail_prompt_action_update">Update</string>
+
+
+    <!-- SHARE REFERRAL -->
+    <string name="send_to">Send text to..</string>
+
+    <string name="lets_go">Lets Go</string>
+
+    <!-- DOWN LINE LIST -->
+    <string name="down_line_list_level_1">Level 1</string>
+    <string name="down_line_list_level_1_date">Date</string>
+    <string name="down_line_list_level_1_code">Code</string>
+    <string name="down_line_list_level_1_customer_name">Customer</string>
+
+    <!-- DOWN LINE LIST -->
+    <string name="down_line_list_level_2">Level 1</string>
+    <string name="down_line_list_level_2_date">Date</string>
+    <string name="down_line_list_level_2_code">Code</string>
+    <string name="down_line_list_level_2_customer_name">Customer</string>
+
+    <!-- HOW TO WORK -->
+    <string name="how_to_work_heading_step_1">Visit Addley.in</string>
+    <string name="how_to_work_message_step_1">Join Addley Completely Free</string>
+    <string name="how_to_work_heading_step_2">Pick Offers</string>
+    <string name="how_to_work_message_step_2">Visit Retailers Via Addley</string>
+    <string name="how_to_work_heading_step_3">Pick Offers</string>
+    <string name="how_to_work_message_step_3">Visit Retailers Via Addley</string>
+
+    <!-- Search Activity -->
+    <string name="hint_search">Brand Name</string>
+
+    <string name="Rs">\u20B9</string>
+    <string name="rs">\u20A8</string>
+
+    <!-- Profile Summary  -->
+    <string name="profile_summary_current_balance">Current Balance</string>
+    <string name="profile_summary_current_balance_default">\u20B9 0</string>
+    <string name="profile_summary_redeem_cashback">Redeem Cashback</string>
+    <string name="profile_summary_total_commission">Total Commission</string>
+    <string name="profile_summary_total_commission_default">\u20B9 0</string>
+    <string name="profile_summary_downline_member">Total Downline Member</string>
+    <string name="profile_summary_downline_member_default">0</string>
+    <string name="profile_summary_total_sale">Total Number Of Sale</string>
+    <string name="profile_summary_total_sale_default">0</string>
+    <string name="profile_summary_tds">TDS</string>
+    <string name="profile_summary_tds_default">0</string>
+    <string name="profile_summary_level_1_commission">1 Level Commission</string>
+    <string name="profile_summary_level_1_commission_default">\u20B9 0</string>
+    <string name="profile_summary_level_2_commission">2 Level Commission</string>
+    <string name="profile_summary_level_2_commission_default">\u20B9 0</string>
+    <string name="profile_summary_self_sale_commission">Self Sale Commission</string>
+    <string name="profile_summary_self_sale_commission_default">\u20B9 0</string>
+
+    <!-- Generate Commission  -->
+    <string name="generate_commission_net_amount">Net Amount</string>
+    <string name="generate_commission_redeemable_amount">Redeemable Amount</string>
+    <string name="generate_commission_redeem_money">Redeem Money</string>
+    <string name="generate_commission_refer_amount">Refer Amount</string>
+    <string name="generate_commission_your_code">Your Code</string>
+    <string name="generate_commission_your_code_default">AMM1001</string>
+    <string name="generate_commission_your_name">Your Name</string>
+    <string name="generate_commission_your_name_default"></string>
+    <string name="generate_commission_total_commission">Total Commission</string>
+    <string name="generate_commission_total_commission_default">\u20B9 0</string>
+    <string name="generate_commission_current_balance">Current Balance</string>
+    <string name="generate_commission_current_balance_default">\u20B9 0</string>
+    <string name="generate_commission_redeem_cashback">Redeem Cashback</string>
+    <string name="generate_commission_downline_member">Total Downline Member</string>
+    <string name="generate_commission_downline_member_default">0</string>
+    <string name="generate_commission_total_sale">Total Number Of Sale</string>
+    <string name="generate_commission_total_sale_default">0</string>
+    <string name="generate_commission_tds">TDS</string>
+    <string name="generate_commission_tds_default">0</string>
+    <string name="generate_commission_level_1_commission">1 Level Commission</string>
+    <string name="generate_commission_level_1_commission_default">\u20B9 0</string>
+    <string name="generate_commission_level_2_commission">2 Level Commission</string>
+    <string name="generate_commission_level_2_commission_default">\u20B9 0</string>
+    <string name="generate_commission_self_sale_commission">Self Commission</string>
+    <string name="generate_commission_self_sale_commission_default">\u20B9 0</string>
+    <string name="generate_commission_self_join_bonus">Self Joining Bonus</string>
+    <string name="generate_commission_self_join_bonus_default">\u20B9 0</string>
+    <string name="generate_commission_referral_amount">Referral Amount</string>
+    <string name="generate_commission_referral_amount_default">\u20B9 0</string>
+    <string name="generate_commission_total_amount">Total Amount </string>
+    <string name="generate_commission_total_amount_default">\u20B9 0</string>
+
+
+    <string name="title_activity_splash">FullScreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!-- splash one -->
+    <string name="one_introduce_cash_back">Introducing Cashback</string>
+    <string name="one_paid_to_shop_online">Get Paid to shop online</string>
+    <string name="one_earn_cash_back">Earn Cashback</string>
+    <string name="one_addley">Addley</string>
+    <string name="one_from">from</string>
+    <string name="one_over_above">over and above store discounts</string>
+
+    <!-- splash two -->
+    <string name="two_transfer">Transferring Cashback</string>
+    <string name="two_transfer_to">Transfer To Your</string>
+    <string name="two_bank_ac">Bank Account</string>
+
+    <!-- splash three -->
+    <string name="three_earn_cash_back">How to Earn Cashback</string>
+    <string name="three_start_online_shopping">Start Your Online Shopping at</string>
+    <string name="three_addley">Addley</string>
+    <string name="three_purchase">Make a Purchase from an</string>
+    <string name="three_online_store">Online Store</string>
+    <string name="three_create_cash_back">Cashback is created to your</string>
+    <string name="three_addley_ac">Addley Account</string>
+
+    <!-- Refer Earn -->
+    <string name="refer_earn_top">Invite your friends to Addley and earn a referral bonus to \u20B9 100</string>
+    <string name="refer_earn_top_1">Your friends also earns \u20B9 100. Details</string>
+    <string name="refer_earn_share">Share</string>
+    <string name="refer_earn_more">See more options</string>
+    <string name="refer_earn_or">or</string>
+    <string name="refer_earn_copy">Copy code to clipboard</string>
+    <string name="refer_earn_history">See referral History</string>
+
+    <!-- How it works -->
+    <string name="how_it_work_1">Visit Addley.in</string>
+    <string name="how_it_work_1_1">Join Addley Completely FREE</string>
+    <string name="how_it_work_2">Pick Offers</string>
+    <string name="how_it_work_2_1">Visit Retailers via Addley</string>
+    <string name="how_it_work_3">Earn Extra Cashback</string>
+    <string name="how_it_work_3_1">Transfer to Bank as REAL CASH</string>
+
+    <!-- REDEEM MONEY -->
+    <string name="redeem_money_notice">Note* : You can only redeem money when you have a minimum of Rs 300 as Redeemable Balance</string>
+    <string name="redeem_money_confirm">Do you want to REDEEM MONEY!</string>
+
+    <!-- Refer Amount -->
+    <string name="refer_success">Successful Referral Balance</string>
+    <string name="refer_Pending">Pending Referral Amount</string>
+    <string name="refer_paid">Paid Referral Amount</string>
+</resources>

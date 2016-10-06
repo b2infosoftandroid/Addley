@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dotted_border"
+    android:layout_margin="10dp"
+    >
+    <ImageView
+        android:id="@+id/top_story_offer_image"
+        android:layout_width="160dp"
+        android:layout_height="140dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/image_not_found"
+        android:layout_gravity="center_vertical|center_horizontal" />
+    <TextView
+        android:id="@+id/top_story_offer_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@color/ThemeColor"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="0\nOFFERS"
+        android:gravity="center_horizontal"
+        android:layout_gravity="top|left"
+        android:textSize="10dp" />
+</FrameLayout>

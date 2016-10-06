@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.b2infosoft.addley">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- write data in file permission -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.b2infosoft.addley.Splash"
+            android:icon="@mipmap/ic_icon"
+            android:theme="@style/FullScreen"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.b2infosoft.addley.Login"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.b2infosoft.addley.Main2" />
+        </activity>
+        <activity
+            android:name="com.b2infosoft.addley.SignUp"
+            android:label="@string/title_activity_sign_up"
+            android:windowSoftInputMode="adjustResize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.b2infosoft.addley.Login" />
+        </activity>
+        <activity
+            android:name="com.b2infosoft.addley.Otp"
+            android:label="@string/title_activity_otp"
+            android:windowSoftInputMode="adjustResize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.b2infosoft.addley.Login" />
+        </activity>
+        <activity
+            android:name="com.b2infosoft.addley.TermsCondition"
+            android:label="@string/title_activity_terms_condition"
+            android:windowSoftInputMode="adjustResize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.b2infosoft.addley.SignUp" />
+        </activity>
+        <activity
+            android:name="com.b2infosoft.addley.Search"
+            android:windowSoftInputMode="adjustResize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.b2infosoft.addley.Main2" />
+        </activity>
+        <activity
+            android:name="com.b2infosoft.addley.Main2"
+            android:icon="@mipmap/ic_home_white_24dp"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+        <activity
+            android:name="com.b2infosoft.addley.Profile"
+            android:icon="@mipmap/ic_home_white_24dp"
+            android:label="@string/title_activity_profile"
+            android:windowSoftInputMode="adjustResize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.b2infosoft.addley.Main2" />
+        </activity>
+        <activity
+            android:name="com.b2infosoft.addley.Edit"
+            android:icon="@mipmap/ic_home_white_24dp"
+            android:label="@string/title_activity_edit"
+            android:windowSoftInputMode="adjustResize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.b2infosoft.addley.Profile" />
+        </activity>
+        <activity
+            android:name="com.b2infosoft.addley.ChangePassword"
+            android:icon="@mipmap/ic_home_white_24dp"
+            android:label="@string/title_activity_change_password"
+            android:windowSoftInputMode="adjustResize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.b2infosoft.addley.Edit" />
+        </activity>
+        <activity
+            android:name="com.b2infosoft.addley.SplashActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_splash"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="com.b2infosoft.addley.SplashDemo"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name="com.b2infosoft.addley.SearchCategory"
+            android:windowSoftInputMode="adjustResize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.b2infosoft.addley.Main2" />
+        </activity>
+        <activity
+            android:name="com.b2infosoft.addley.SearchCategory1"
+            android:windowSoftInputMode="adjustResize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.b2infosoft.addley.Main2" />
+        </activity>
+        <activity
+            android:name="com.b2infosoft.addley.ForgotPassword"
+            android:label="@string/title_activity_forgot_password"
+            android:windowSoftInputMode="adjustResize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.b2infosoft.addley.Login" />
+        </activity>
+        <activity android:name="com.b2infosoft.addley.FirstRun">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.b2infosoft.addley.RedeemCashback"
+            android:windowSoftInputMode="adjustResize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.b2infosoft.addley.Profile" />
+        </activity>
+        <activity
+            android:name="com.b2infosoft.addley.SearchCoupon"
+            android:windowSoftInputMode="adjustResize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.b2infosoft.addley.Main2" />
+        </activity>
+        <activity
+            android:name="com.b2infosoft.addley.Splash_1"
+            ></activity>
+    </application>
+
+</manifest>

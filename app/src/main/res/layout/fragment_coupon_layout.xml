@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    >
+        <RelativeLayout
+            android:id="@+id/coupon_main_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:orientation="vertical"
+                android:gravity="center_vertical|center_horizontal">
+                <ImageView
+                    android:id="@+id/best_offer_company_logo"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:background="@color/white"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/image_not_found" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="80dp"
+                android:layout_toRightOf="@+id/linearLayout"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/best_offer_company_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:padding="5dp"
+                    android:textSize="10sp"
+                    android:textAllCaps="true"
+                    android:textColor="@color/button_2_stroke"
+                    android:textStyle="normal" />
+            </LinearLayout>
+            <Button
+                android:id="@+id/best_offer_action_get_offer_button"
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:background="@drawable/button_background"
+                android:text="Get Code"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                android:layout_below="@+id/linearLayout2"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/linearLayout"
+                />
+            <Button
+                android:id="@+id/best_offer_action_visit_site_button"
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:background="@drawable/button_background"
+                android:text="VISIT SITE"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                android:layout_below="@+id/linearLayout2"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/best_offer_action_get_offer_button"
+                />
+        </RelativeLayout>
+</LinearLayout>
